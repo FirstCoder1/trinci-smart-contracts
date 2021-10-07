@@ -1,4 +1,8 @@
 **/target
 apps-rs/build/
+<<<<<<< HEAD
+=======
+apps-rs/tmp/
+>>>>>>> 37792c5 (added main License file and edited README)
 .vscode
 apps-rs/tmp/
