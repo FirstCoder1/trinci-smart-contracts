@@ -18,7 +18,11 @@
 use integration::{
     common::{
         self, AccountInfo, SerdeValue, ASSET_APP_HASH, PUB_KEY1, PUB_KEY2, PUB_KEY3, PVT_KEY1,
+<<<<<<< HEAD
         PVT_KEY2, PVT_KEY3, SERVICE_APP_HASH,
+=======
+        PVT_KEY2, PVT_KEY3,
+>>>>>>> 4528a95 (added service contract integration test)
     },
     TestApp,
 };
@@ -34,6 +38,13 @@ use trinci_core::{
 
 use trinci_sdk::{rmp_deserialize, rmp_serialize, value};
 
+<<<<<<< HEAD
+=======
+lazy_static! {
+    pub static ref SERVICE_APP_HASH: Hash = common::app_hash("service.wasm").unwrap();
+}
+
+>>>>>>> 4528a95 (added service contract integration test)
 const SERVICE_ALIAS: &str = "Service";
 const SUBMITTER_ALIAS: &str = "Submitter";
 const ASSET_ALIAS: &str = "FCK";
