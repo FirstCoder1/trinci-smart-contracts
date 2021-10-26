@@ -3,6 +3,7 @@ name = "test"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "0.1.2"
 =======
 version = "0.1.1"
@@ -15,6 +16,11 @@ version = "0.2.0"
 >>>>>>> 922c20d (updated all contracts)
 authors = ["The Trinci Team <trinci@affidaty.io>"]
 edition = "2021"
+=======
+version = "0.1.2"
+authors = ["The Affidaty Team <trinci@affidaty.io>"]
+edition = "2018"
+>>>>>>> 4ff9c31 (added integration test for test contract)
 description = "Core wasm machine unit tests contract"
 
 [lib]
