@@ -23,14 +23,12 @@
 //!  - Default smart contract functionalities.
 //!  - Trigger exceptional conditions.
 //!
-use hashers::null::NullHasher;
 use random::Source;
 use serde_derive::{Deserialize, Serialize};
-use std::hash::BuildHasherDefault;
+use std::collections::HashMap;
 use std::time::SystemTime;
 use std::{
     alloc::{alloc, Layout},
-    collections::HashMap as StdHashMap,
     convert::TryInto,
     mem::align_of,
 };
@@ -38,9 +36,6 @@ use trinci_sdk::{
     rmp_deserialize, rmp_serialize, tai::AssetTransferArgs, value, AppContext, PackedValue, Value,
     WasmError, WasmResult,
 };
-
-type HashMap<K, V> = StdHashMap<K, V, BuildHasherDefault<NullHasher>>;
-
 trinci_sdk::app_export!(
     // Input and output serialization.
     echo_generic,
@@ -255,7 +250,7 @@ fn notify(ctx: AppContext, data: Value) -> WasmResult<()> {
 fn random_sequence(_ctx: AppContext, _args: PackedValue) -> WasmResult<PackedValue> {
     trinci_sdk::log("Called method `random_sequence`");
 
-    let mut source = random::default().seed([0, 1]);
+    let mut source = random::default();
     let vector = source.iter().take(3).collect::<Vec<u64>>();
 
     let buf = trinci_sdk::rmp_serialize(&vector)?;
@@ -443,6 +438,7 @@ mod tests {
 
         assert_eq!(err.to_string(), "not enough funds");
     }
+<<<<<<< HEAD
 
     #[test]
 <<<<<<< HEAD
@@ -496,4 +492,6 @@ mod tests {
         let _time = not_wasm::call_wrap(get_time, ctx, args).unwrap();
 >>>>>>> 72b2a10 (added some test to check wasm determinism)
     }
+=======
+>>>>>>> aa46658 (removed fixed seed on random and hashmap in test contract)
 }
