@@ -1,6 +1,10 @@
 [package]
 name = "bootstrap"
+<<<<<<< HEAD
 version = "0.1.3"
+=======
+version = "0.1.2"
+>>>>>>> b7d1328 (Cargo update)
 authors = ["The Trinci Team <trinci@affidaty.io>"]
 edition = "2018"
 description = "Node bootstrap"
