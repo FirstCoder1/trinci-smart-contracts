@@ -1,10 +1,14 @@
 [package]
 name = "test"
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "0.1.2"
 =======
 version = "0.1.1"
 >>>>>>> b7d1328 (Cargo update)
+=======
+version = "0.1.2"
+>>>>>>> f0184d8 (aligned integration test to new transaction format)
 authors = ["The Trinci Team <trinci@affidaty.io>"]
 edition = "2018"
 description = "Core wasm machine unit tests contract"
