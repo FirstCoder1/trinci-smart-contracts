@@ -1,8 +1,12 @@
 **/target
 apps-rs/build/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 apps-rs/tmp/
 >>>>>>> 37792c5 (added main License file and edited README)
 .vscode
+=======
+>>>>>>> fce5ede (Revert "Merge branch 'emit_method_on_test_contract' into 'master'")
 apps-rs/tmp/
+.vscode
