@@ -2,6 +2,7 @@
 name = "service"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "0.1.3"
 =======
 version = "0.1.2"
@@ -9,8 +10,11 @@ version = "0.1.2"
 =======
 version = "0.1.3"
 >>>>>>> f0184d8 (aligned integration test to new transaction format)
+=======
+version = "0.1.4"
+>>>>>>> 922c20d (updated all contracts)
 authors = ["The Trinci Team <trinci@affidaty.io>"]
-edition = "2018"
+edition = "2021"
 description = "Basic node service"
 
 [lib]
