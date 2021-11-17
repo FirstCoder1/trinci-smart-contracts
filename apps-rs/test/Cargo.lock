@@ -260,6 +260,7 @@ name = "test"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "0.1.2"
 =======
 version = "0.1.1"
@@ -273,6 +274,9 @@ version = "0.2.0"
 =======
 version = "0.1.2"
 >>>>>>> 4ff9c31 (added integration test for test contract)
+=======
+version = "0.2.1"
+>>>>>>> 033cd30 (added method get_keys to test contract)
 dependencies = [
  "hashers",
  "hex",

@@ -29,6 +29,13 @@ Additional labels for pre-release metadata:
 <<<<<<< HEAD
 Test contract
 
+0.2.1 - 17-11-2021
+------------------
+
+Added
+* added get_account_keys method to test get_keys host function
+* added store_data utility method
+
 0.2.0 - 10-11-2021
 ------------------
 * added notify method to test emit_data host function

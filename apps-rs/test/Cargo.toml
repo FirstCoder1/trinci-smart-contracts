@@ -4,6 +4,7 @@ name = "test"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "0.1.2"
 =======
 version = "0.1.1"
@@ -14,6 +15,9 @@ version = "0.1.2"
 =======
 version = "0.2.0"
 >>>>>>> 922c20d (updated all contracts)
+=======
+version = "0.2.1"
+>>>>>>> 033cd30 (added method get_keys to test contract)
 authors = ["The Trinci Team <trinci@affidaty.io>"]
 edition = "2021"
 =======
