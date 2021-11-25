@@ -97,6 +97,7 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 name = "libc"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "0.2.105"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "869d572136620d55835903746bcb5cdc54cb2851fd0aeec53220b4bb65ef3013"
@@ -110,6 +111,11 @@ version = "0.2.107"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fbe5e23404da5b4f555ef85ebed98fb4083e55a00c317800bc2a50ede9f3d219"
 >>>>>>> 922c20d (updated all contracts)
+=======
+version = "0.2.108"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8521a1b57e76b1ec69af7599e75e38e7b7fad6610f037db8c79b127201b5d119"
+>>>>>>> b21278e (updated wasm file)
 
 [[package]]
 name = "num-traits"
@@ -240,6 +246,7 @@ dependencies = [
 [[package]]
 name = "syn"
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "1.0.80"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d010a1623fbd906d51d650a9916aaefc05ffa0e4053ff7fe601167f3e715d194"
@@ -248,6 +255,11 @@ version = "1.0.81"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2afee18b8beb5a596ecb4a2dce128c719b4ba399d34126b9e4396e3f9860966"
 >>>>>>> fc91ca3 (New wasm binaries)
+=======
+version = "1.0.82"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8daf5dd0bb60cbd4137b1b587d2fc0ae729bc07cf01cd70b36a1ed5ade3b9d59"
+>>>>>>> b21278e (updated wasm file)
 dependencies = [
  "proc-macro2",
  "quote",
@@ -307,8 +319,12 @@ version = "0.1.2"
 >>>>>>> 57c2b75 (added notify method to test contract)
 =======
 version = "0.1.3"
+<<<<<<< HEAD
 source = "git+https://github.com/affidaty-blockchain/trinci-sdk-rust#4057a8c699c81e628eca230117f5d61c46ed2146"
 >>>>>>> 922c20d (updated all contracts)
+=======
+source = "git+https://github.com/affidaty-blockchain/trinci-sdk-rust#2241652b0733f67a62faddb35d273e6338c2bc46"
+>>>>>>> b21278e (updated wasm file)
 dependencies = [
  "bs58",
  "hex",
