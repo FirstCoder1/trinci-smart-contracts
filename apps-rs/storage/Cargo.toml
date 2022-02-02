@@ -1,8 +1,33 @@
 [package]
+<<<<<<< HEAD
 name = "storage"
 version = "0.1.1"
 authors = ["The Affidaty Team <trinci@affidaty.io>"]
 edition = "2018"
+=======
+<<<<<<<< HEAD:apps-rs/bootstrap/Cargo.toml
+name = "bootstrap"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+version = "0.1.3"
+=======
+version = "0.1.2"
+>>>>>>> b7d1328 (Cargo update)
+=======
+version = "0.1.3"
+>>>>>>> f0184d8 (aligned integration test to new transaction format)
+=======
+version = "0.1.4"
+>>>>>>> 922c20d (updated all contracts)
+authors = ["The Trinci Team <trinci@affidaty.io>"]
+========
+name = "storage"
+version = "0.1.2"
+authors = ["The Affidaty Team <trinci@affidaty.io>"]
+>>>>>>>> 6e01bdc (trinci-smartcontracts public release):apps-rs/storage/Cargo.toml
+edition = "2021"
+>>>>>>> 6e01bdc (trinci-smartcontracts public release)
 description = "Storage manager"
 
 [lib]
@@ -10,10 +35,18 @@ crate-type = ["cdylib"]
 
 [dependencies]
 trinci-sdk = { git = "https://github.com/affidaty-blockchain/trinci-sdk-rust" }
+<<<<<<< HEAD
 serde = "1.0.126"
 serde_derive = "1.0.126"
+=======
+serde = "1.0.136"
+serde_derive = "1.0.136"
+>>>>>>> 6e01bdc (trinci-smartcontracts public release)
 serde_bytes = "0.11.5"
 
 [dev-dependencies]
 hex = "0.4.3"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e01bdc (trinci-smartcontracts public release)

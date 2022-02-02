@@ -22,7 +22,7 @@
 >>>>>>> 1cba6ad (pay-meal contract v0.1.1)
 use std::collections::BTreeMap;
 
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 
 // Init Args
 #[derive(Serialize, Deserialize)]
